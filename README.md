@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/24eYa-Z_)
 # TP1_Web2_2026
 
 # TP JavaScript 1 — Variables, Types et DOM (Rappel)
@@ -158,34 +159,7 @@ Créez `exercice4.html`. Ce script doit interagir avec l'utilisateur au chargeme
 >  `prompt()` retourne `null` si l'utilisateur clique sur "Annuler". En situation réelle, il faudrait le gérer !
 
 ---
-
-### Exercice 5 
-
-**Objectif :** Modifier le contenu d'éléments HTML avec `innerHTML`.
-
-Créez `exercice5.html`. Construisez une fiche de présentation dynamique.
-
-**Structure HTML à créer dans le `<body>` :**
-
-```html
-<h1>Ma fiche de présentation</h1>
-<p id="nomComplet">...</p>
-<p id="age">...</p>
-<p id="ville">...</p>
-<p id="presentation">...</p>
-```
-
-**Dans le `<script>` (après les éléments HTML) :**
-
-1. Déclarez les variables : `prenom`, `nom`, `age`, `ville` avec vos informations.
-2. Utilisez `document.getElementById("nomComplet").innerHTML` pour afficher `"Prénom NOM"` dans le paragraphe correspondant.
-3. Faites de même pour afficher l'âge et la ville.
-4. Dans le paragraphe `"presentation"`, affichez une phrase complète :  
-   `"Je m'appelle [prénom] [nom], j'ai [age] ans et j'habite à [ville]."`
-5. Changez dynamiquement le titre de la page (`<title>`) avec :  
-   `document.title = "Fiche de " + prenom;`
-
-> `document.querySelector("#nomComplet").innerHTML` fonctionne également !
+c
 
 ---
 
